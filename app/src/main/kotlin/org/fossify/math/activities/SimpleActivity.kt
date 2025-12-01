@@ -2,7 +2,7 @@ package org.fossify.math.activities
 
 import android.os.Bundle
 import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.math.simple.R
+import org.fossify.math.simpler.R
 
 open class SimpleActivity : BaseSimpleActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

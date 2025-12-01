@@ -2,7 +2,7 @@ package org.fossify.math.helpers
 
 import android.content.Context
 import org.fossify.commons.extensions.showErrorToast
-import org.fossify.math.simple.R
+import org.fossify.math.simpler.R
 import org.fossify.math.models.History
 import org.json.JSONObject
 import org.json.JSONTokener

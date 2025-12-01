@@ -49,15 +49,24 @@
 
         <activity
             android:name="org.fossify.math.activities.SettingsActivity"
-            android:configChanges="orientation"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/settings"
-            android:parentActivityName="org.fossify.math.activities.MainActivity">
+            android:parentActivityName=".activities.MainActivity" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity
+            android:name="org.fossify.math.activities.DateCalculatorActivity"
+            android:exported="false"
+            android:label="@string/date_calculator"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
     </application>
 </manifest>

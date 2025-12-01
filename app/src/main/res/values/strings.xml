@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Calculator</string>
+    <string name="app_launcher_name">Calculatore</string>
     <string name="scientific_calculator">Scientific Calculator</string>
 
     <!-- Calculator field -->
@@ -18,6 +18,20 @@
     <!-- FAQ -->
     <string name="faq_1_title">How does the C (Clear) button work?</string>
     <string name="faq_1_text">Tapping on it will remove one character at a time. Long pressing it will reset all fields at once.</string>
+
+    <!-- Date Calculator -->
+    <string name="date_calculator">Date Calculator</string>
+    <string name="date_difference">Date Difference</string>
+    <string name="add_subtract_date">Add/Subtract Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="years">Years</string>
+    <string name="months">Months</string>
+    <string name="days">Days</string>
+    <string name="weeks">Weeks</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="calculate_date">Calculate Date</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res

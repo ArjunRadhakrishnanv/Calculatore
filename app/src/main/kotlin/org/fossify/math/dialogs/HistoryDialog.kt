@@ -5,10 +5,10 @@ import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.math.simple.R
+import org.fossify.math.simpler.R
 import org.fossify.math.activities.SimpleActivity
 import org.fossify.math.adapters.HistoryAdapter
-import org.fossify.math.simple.databinding.DialogHistoryBinding
+import org.fossify.math.simpler.databinding.DialogHistoryBinding
 import org.fossify.math.extensions.calculatorDB
 import org.fossify.math.helpers.CalculatorImpl
 import org.fossify.math.models.History

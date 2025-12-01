@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.fossify.commons.extensions.copyToClipboard
 import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.math.activities.SimpleActivity
-import org.fossify.math.simple.databinding.HistoryViewBinding
+import org.fossify.math.simpler.databinding.HistoryViewBinding
 import org.fossify.math.helpers.CalculatorImpl
 import org.fossify.math.models.History
 

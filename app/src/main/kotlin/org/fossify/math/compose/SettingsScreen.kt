@@ -15,7 +15,7 @@ import org.fossify.commons.compose.settings.SettingsTitleTextComponent
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.divider_grey
 import org.fossify.commons.helpers.isTiramisuPlus
-import org.fossify.math.simple.R
+import org.fossify.math.simpler.R
 
 @Composable
 internal fun SettingsScreen(

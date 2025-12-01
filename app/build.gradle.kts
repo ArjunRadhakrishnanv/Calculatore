@@ -33,7 +33,7 @@ android {
         targetSdk = project.libs.versions.app.build.targetSDK.get().toInt()
         versionName = project.property("VERSION_NAME").toString()
         versionCode = project.property("VERSION_CODE").toString().toInt()
-        setProperty("archivesBaseName", "simple-$versionCode")
+        project.setProperty("archivesBaseName", "simpler-${versionCode}-with-date-fix")
         ksp {
             arg("room.schemaLocation", "$projectDir/schemas")
         }

@@ -1,15 +1,39 @@
 *.iml
-*.aab
 .gradle
 /local.properties
-/.idea/
+/.idea/workspace.xml
+/.idea/libraries
 .DS_Store
 /build
 /captures
-keystore.jks
+.externalNativeBuild
+.cxx
+local.properties
+ .navigation
+ .idea/caches
+ .idea/libraries
+ .idea/modules.xml
+ .idea/workspace.xml
+ .idea/navEditor.xml
+ .idea/assetWizardSettings.xml
+ .idea/codeStyles
+ .idea/dictionaries
+ .idea/inspectionProfiles
+ .idea/runConfigurations
+.settings
+.classpath
+.project
+*.jks
+*.keystore
 keystore.properties
+google-services.json
 fastlane/fastlane.json
 fastlane/report.xml
 .kotlin/
 GEMINI.md
-*.jks
+
+# App specific
+app/build/
+app/release/
+*.apk
+*.aab

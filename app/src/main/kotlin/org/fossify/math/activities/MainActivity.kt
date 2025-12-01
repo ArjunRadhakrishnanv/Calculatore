@@ -24,10 +24,10 @@ import org.fossify.commons.helpers.LICENSE_AUTOFITTEXTVIEW
 import org.fossify.commons.helpers.LOWER_ALPHA_INT
 import org.fossify.commons.helpers.MEDIUM_ALPHA_INT
 import org.fossify.commons.models.FAQItem
-import org.fossify.math.simple.BuildConfig
-import org.fossify.math.simple.R
+import org.fossify.math.simpler.BuildConfig
+import org.fossify.math.simpler.R
 import org.fossify.math.databases.CalculatorDatabase
-import org.fossify.math.simple.databinding.ActivityMainBinding
+import org.fossify.math.simpler.databinding.ActivityMainBinding
 import org.fossify.math.dialogs.HistoryDialog
 import org.fossify.math.extensions.config
 import org.fossify.math.extensions.updateViewColors
@@ -58,6 +58,10 @@ class MainActivity : SimpleActivity(), Calculator {
         setupMaterialScrollListener(binding.mainNestedScrollview, binding.mainAppbar!!)
         setSupportActionBar(binding.mainToolbar)
         supportActionBar?.setDisplayShowTitleEnabled(false)
+        binding.mainToolbar.setNavigationIcon(R.drawable.ic_date_range)
+        binding.mainToolbar.setNavigationOnClickListener {
+            startActivity(Intent(applicationContext, DateCalculatorActivity::class.java))
+        }
 
         if (savedInstanceState != null) {
             saveCalculatorState = savedInstanceState.getCharSequence(CALCULATOR_STATE) as String
@@ -102,6 +106,11 @@ class MainActivity : SimpleActivity(), Calculator {
         super.onResume()
         setupTopAppBar(binding.mainAppbar!!)
         setupMaterialScrollListener(binding.mainNestedScrollview, binding.mainAppbar)
+
+        binding.mainToolbar.setNavigationIcon(R.drawable.ic_date_range)
+        binding.mainToolbar.setNavigationOnClickListener {
+            startActivity(Intent(applicationContext, DateCalculatorActivity::class.java))
+        }
 
         if (config.preventPhoneFromSleeping) {
             window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
