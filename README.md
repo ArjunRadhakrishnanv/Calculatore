@@ -4,7 +4,7 @@
 
 A streamlined version of the original Fossify Calculator, designed for speed, simplicity, and minimal footprint.
 
-**Version:** 1.0.1
+
 
 **Key Features:**
 
