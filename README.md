@@ -1,5 +1,7 @@
 # Calculatore
 
+![GitHub all releases](https://img.shields.io/github/downloads/ArjunRadhakrishnanv/Calculatore/total)
+
 A streamlined version of the original Fossify Calculator, designed for speed, simplicity, and minimal footprint.
 
 **Version:** 1.0.1
